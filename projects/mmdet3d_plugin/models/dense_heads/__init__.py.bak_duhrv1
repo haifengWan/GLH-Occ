@@ -1,0 +1,16 @@
+from .bev_centerpoint_head import BEV_CenterHead, Centerness_Head
+from .bev_occ_head import BEVOCCHead2D, BEVOCCHead3D, BEVOCCHead2D_V2
+
+# 新增：导入 DUHR occupancy head，确保 mmdet3d registry 能注册该类
+from .duhr_occ_head import BEVOCCHead2D_DUHR
+
+__all__ = [
+    'Centerness_Head',
+    'BEV_CenterHead',
+    'BEVOCCHead2D',
+    'BEVOCCHead3D',
+    'BEVOCCHead2D_V2',
+
+    # 新增：DUHR head
+    'BEVOCCHead2D_DUHR'
+]
