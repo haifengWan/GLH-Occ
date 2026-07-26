@@ -49,8 +49,6 @@ GLH-Occ contains four main components:
 - [x] Core model implementation and experimental configurations
 - [x] Training, evaluation, and visualization utilities
 - [ ] Paper
-- [ ] Final all-module submission configuration
-- [ ] Pretrained checkpoints and training logs
 
 ## Installation
 
