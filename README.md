@@ -12,7 +12,7 @@
 ## Framework
 
 <p align="center">
-  <img src="assets/framework.jpg" alt="Overview of the GLH-Occ framework" width="100%">
+  <img src="https://haifengwan.github.io/GLH-Occ/assets/framework.jpg" alt="Overview of the GLH-Occ framework" width="100%">
 </p>
 
 GLH-Occ improves 3D scene modeling at both the image-to-BEV transformation and BEV representation stages. It preserves efficient BEV inference while introducing geometry-adaptive lifting, multi-scale feature aggregation, latent height reasoning, and training-time semantic regularization.
@@ -158,7 +158,7 @@ python tools/test.py ${CONFIG} ${CHECKPOINT} --eval mIoU
 The example below shows GLH-Occ predictions in a challenging nighttime scene. The model preserves the road layout and surrounding vertical structures despite low illumination and strong headlights.
 
 <p align="center">
-  <img src="assets/night_qualitative.jpg" alt="GLH-Occ qualitative results in a nighttime scene" width="100%">
+  <img src="https://haifengwan.github.io/GLH-Occ/assets/night_qualitative.jpg" alt="GLH-Occ qualitative results in a nighttime scene" width="100%">
 </p>
 
 ## Acknowledgements
